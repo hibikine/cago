@@ -4,3 +4,13 @@ version = "0.1.0"
 authors = ["Hibikine Kage <goodsmile314159@gmail.com>"]
 
 [dependencies]
+nalgebra = "0.16"
+ncollide2d = "0.17"
+nphysics2d = "0.9"
+
+[[bin]]
+name = "example"
+path = "./src/example.rs"
+
+[lib]
+crate-type = ["cdylib"]

@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "parcel": "^1.10.3",
+    "typescript": "^3.1.6"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  }
+}
